@@ -13,7 +13,16 @@ El aumento de velocidad es importante debido a que V8 compila JavaScript en cód
 Node es de código abierto, y se ejecuta en Mac OS X, Windows y Linux.
 
 -   ¿Qué podemos hacer con Node.js?
+    Con Node.js tenemos la posibilidad de realizar un amplio número de aplicaciones, entre las que se destacan: 
+    -   Aplicaciones Web
+    -   Aplicaciones de consola
+    -   Chats
+    -   Proxis
+    
 -   Instalación
+    -   Node.js cuenta con un instalador pre-compilado para las plataformas mas comunes: Windows - MacOs - Linux    
+    -   [Descargar](https://nodejs.org/es/download/)
+    
 -   [NPM (Node Package Manager)](https://www.npmjs.com/)
     -   Es el gestor de paquetes javascript de Node.js por excelencia. Gracias a él, tenemos casi cualquier librería disponible a tan solo una linea de comando de distancia, permitiéndonos utilizarla en cuestión de segundos.
     -   NPM utiliza el archivo package.json para almacenar todos los datos relevantes a nuestra aplicación. Así que lo primero que tenemos que hacer es iniciar con el comando:
@@ -29,6 +38,10 @@ Node es de código abierto, y se ejecuta en Mac OS X, Windows y Linux.
             npm install `nombreDelPaquete@version` 
             npm install `nombreDelPaquete` --save  
             npm install `nombreDelPaquete` -g
+            
+    -   Para ejecutar el archivo principal del proyecto:
+
+            npm start
             
 -   Hola Mundo!
 -   FrameWorks
