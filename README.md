@@ -44,6 +44,15 @@ Node es de código abierto, y se ejecuta en Mac OS X, Windows y Linux.
             npm start
             
 -   Hola Mundo!
+    -   console: El módulo de console proporciona una consola de depuración simple que es similar al mecanismo de consola de     JavaScript provisto por los navegadores web.
+
+    -    El módulo exporta dos componentes específicos:
+    
+         Una clase de consola con métodos como console.log (), console.error () y console.warn () que se pueden usar para        escribir en cualquier flujo de Node.js.
+     
+         Una instancia de consola global configurada para escribir en cualquier proces, la consola global se puede usar sin ser requerida.
+    -   require: La función require nos permite importar dentro de nuestro código una librería o archivo JavaScript para ser utilizado en nuestros proyectos. 
+    https://geekytheory.com/node-js-primeros-pasos-y-hola-mundo
 -   FrameWorks
 ![Framework](https://raw.githubusercontent.com/Unitech/PM2/development/pres/cluster-support.png) 
 
