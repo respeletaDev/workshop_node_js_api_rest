@@ -52,7 +52,17 @@ Node es de código abierto, y se ejecuta en Mac OS X, Windows y Linux.
      
          Una instancia de consola global configurada para escribir en cualquier proces, la consola global se puede usar sin ser requerida.
     -   require: La función require nos permite importar dentro de nuestro código una librería o archivo JavaScript para ser utilizado en nuestros proyectos. 
-    https://geekytheory.com/node-js-primeros-pasos-y-hola-mundo
+    
+            var http = require('http');
+            var server = http.createServer();
+            function control(petic, resp) {
+            resp.writeHead(200, {'content-type': 'text/plain'});
+            resp.write('Hola, Mundo!');
+            resp.end();
+            }
+            server.on('request', control);
+            server.listen(8080);
+    
 -   FrameWorks
 ![Framework](https://raw.githubusercontent.com/Unitech/PM2/development/pres/cluster-support.png) 
 
@@ -64,6 +74,12 @@ Node es de código abierto, y se ejecuta en Mac OS X, Windows y Linux.
 ![Escalabilidad](https://blog.forocoin.net/wp-content/uploads/2018/06/Sharding-Escalabilidad.jpeg)
 
 -   Estructuración de carpetas del proyecto
+    -   Routes
+    -   Controllers 
+    -   Helpers
+    -   Repositories
+    -   Middlewares 
+    
 -   [PM2](https://github.com/Unitech/pm2) 
 
 ## WorksShop  
